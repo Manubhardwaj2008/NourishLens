@@ -116,7 +116,7 @@ fun NourishLensTopHeader(
                     ) {
                         Image(
                             painter = painterResource(id = R.drawable.profile_kartikey),
-                            contentDescription = "Kartikey Profile",
+                            contentDescription = "Natwar Goyal Profile",
                             modifier = Modifier.fillMaxSize(),
                             contentScale = ContentScale.Crop
                         )

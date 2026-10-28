@@ -124,6 +124,6 @@ data class ProductScan(
     val extractedFields: ExtractedFields,
     val complianceResult: ComplianceResult,
     val timestamp: Long = System.currentTimeMillis(),
-    val inspectorName: String = "Kartikey Singh (Senior LM Inspector)",
+    val inspectorName: String = "Natwar Goyal (Senior LM Inspector)",
     val inspectionLocation: String = "Regional Audit Station #04, New Delhi"
 )

@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun NourishLensApp() {
     var isLoggedIn by remember { mutableStateOf(false) }
-    var inspectorName by remember { mutableStateOf("Kartikey Singh (Senior Inspector)") }
+    var inspectorName by remember { mutableStateOf("Natwar Goyal (Senior Inspector)") }
     var scansList by remember { mutableStateOf(SampleData.createInitialScans()) }
     var currentScan by remember { mutableStateOf(scansList.first()) }
     var selectedTab by remember { mutableIntStateOf(0) }

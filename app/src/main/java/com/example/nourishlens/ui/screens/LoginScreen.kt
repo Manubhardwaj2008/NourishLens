@@ -34,7 +34,7 @@ fun LoginScreen(
     onLoginSuccess: (String, String) -> Unit,
     onGuestLogin: () -> Unit
 ) {
-    var emailOrBadgeId by remember { mutableStateOf("kartikey.singh@nourishlens.gov.in") }
+    var emailOrBadgeId by remember { mutableStateOf("natwar.goyal@nourishlens.gov.in") }
     var password by remember { mutableStateOf("inspector2026") }
     var selectedStation by remember { mutableStateOf("New Delhi Region Station #04") }
     var isPasswordVisible by remember { mutableStateOf(false) }
@@ -200,7 +200,7 @@ fun LoginScreen(
                     Button(
                         onClick = {
                             if (emailOrBadgeId.isNotBlank() && password.isNotBlank()) {
-                                onLoginSuccess("Kartikey Singh (Senior Inspector)", selectedStation)
+                                onLoginSuccess("Natwar Goyal (Senior Inspector)", selectedStation)
                             }
                         },
                         modifier = Modifier.fillMaxWidth(),

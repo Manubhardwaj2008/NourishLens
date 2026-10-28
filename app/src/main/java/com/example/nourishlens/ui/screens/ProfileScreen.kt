@@ -63,7 +63,7 @@ fun ProfileScreen(
                 ) {
                     Image(
                         painter = painterResource(id = R.drawable.profile_kartikey),
-                        contentDescription = "Officer Kartikey Singh Profile Photo",
+                        contentDescription = "Officer Natwar Goyal Profile Photo",
                         modifier = Modifier.fillMaxSize(),
                         contentScale = ContentScale.Crop
                     )
@@ -72,7 +72,7 @@ fun ProfileScreen(
                 Spacer(modifier = Modifier.height(10.dp))
 
                 Text(
-                    text = "Kartikey Singh",
+                    text = "Natwar Goyal",
                     style = MaterialTheme.typography.titleLarge,
                     color = CharcoalEspresso,
                     fontWeight = FontWeight.Bold,

@@ -309,7 +309,7 @@ fun PantryHistoryScreen(
                         Text(
                             text = """
                                 Station: New Delhi Station #04
-                                Inspector: Kartikey Singh (Senior Officer)
+                                Inspector: Natwar Goyal (Senior Officer)
                                 Total Commodities Audited: $totalScans
                                 Compliant Items: $compliantCount
                                 Seizure Notices: $nonCompliantCount
